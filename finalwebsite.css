@@ -1,0 +1,481 @@
+
+body {
+    color: white;
+    font-family: 'Francois One', sans-serif;
+}
+
+#block1, #block1-men, #block2, #block2-men {
+    font-family: 'Secular One', sans-serif;
+}
+
+h1, #navbar_men, #navbar_women, input {
+    float: left;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+li, a {
+    margin-top: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    font-size: 15pt;
+}
+
+#navbar_women, #navbar_men {
+    margin-left: 20px;
+    padding-top: 15px;
+    width: 115px;
+    height: 45px;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+
+
+
+
+
+#navbar_women > li, #navbar_men {
+
+}
+
+#navbar_women:hover, #navbar_men:hover {
+    background-color: #ccc;
+}
+
+#navbar_men, #navbar_women {
+    margin-left: 0px;
+    border-left: 1px solid #E8DEBE;
+}
+
+#navbar_women {
+    margin-left: 20px;
+}
+
+#navbar_men {
+    border-right: 1px solid #E8DEBE;
+}
+
+#searchbar {
+    width: 40%;
+    height: 38px;
+    border-radius: 19px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+}
+
+#women-drop:hover #nav-extra, #men-drop:hover #nav-extra {
+    display: block;
+    
+}
+body {
+    margin: 0px;
+}
+
+svg{
+    position: absolute;
+    top: 20px;
+    left: 850px;
+}
+
+#shopping-cart-icon {
+    position: absolute;
+    right: 20%;
+    top: 15px;
+    height: 40px;
+    width: 40px;
+}
+
+#nav-extra {
+    position: absolute;
+    display: none;
+    top: 60px;
+    left: 0;
+    height: 50px;
+    background-color: #525050;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+#women-nav-extra, #men-nav-extra {
+    margin-left: 0px;
+    text-align: center;
+}
+
+#women-nav-extra > li > a, #men-nav-extra > li > a {
+    width: 100%;
+    height: 45px;
+    display: block;
+    font-size: 13pt;
+    padding-top: 10px;
+}
+
+#women-nav-extra > li, #men-nav-extra > li {
+    color: white;
+    border-left: 1px solid black;
+    text-align: center;
+
+}
+
+#women-nav-extra > li, #men-nav-extra > li {
+    display: block;
+    float: left;
+    width: 5%;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#men-nav-extra > li:nth-child(6) {
+    width: 8%;
+}
+
+#women-nav-extra > li:hover, #men-nav-extra > li:hover {
+    background-color: #ccc;
+}
+
+.selected-nav {
+    background-color: #525050;
+}
+
+#women-nav-extra a:nth-child(5) {
+    border-right: 1px solid black;
+}
+
+#block1 {
+    background: linear-gradient(rgba(200,200,255,.70), rgba(200,200,255,.70)), url('imgs/model-women.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
+
+#men-or-women {
+    height: 698px;
+    background: linear-gradient(rgba(200,200,255,.70), rgba(200,200,255,.70)), url('imgs/main-page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+#men-button, #women-button {
+    height: 50px;
+    width: 130px;
+    background-color: white;
+    color: #2d2d2d;
+    border: none;
+    font-size: 13pt;
+    border-radius: 3px;
+    transition: background-color .7s, color .7s;
+
+}
+
+
+#men-button:hover, #women-button:hover {
+    background-color: #2d2d2d;
+    color: white;
+}
+
+#men-button {
+    position: absolute;
+    top: 60%;
+    right: 40%;
+}
+
+#women-button {
+    position: absolute;
+    top: 60%;
+    right: 54%;
+}
+
+button {
+    font-family: 'Francois One', sans-serif;
+}
+
+#footer {
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    padding-bottom: 15px;
+    height: 130px;
+}
+
+#footer, #footer-block1 > a, #footer-block2 > a, #footer-block3 > a {
+    color: black;
+    display: block;
+}
+
+#footer-block1, #footer-block2, #footer-block3 {
+    float: left;
+}
+
+#info, #about, #more {
+    font-size: 13pt;
+    margin-top: 15px;
+}
+
+#footer-block1, #footer-block2, #footer-block3 {
+    margin-left: 8%;
+    padding-top: 10px;
+}
+
+#footer-block1 > a, #footer-block2 > a, #footer-block3 > a {
+    font-size: 11pt;
+    max-width: 100%;
+    margin-top: 5px;
+    color: #666;
+}
+
+.footer-links:hover {
+    text-shadow: 0px 0px 12px rgba(14,139,235,1);
+}
+
+#socials {
+    font-size: 13pt;
+    padding-top: 13px;
+    float: left;
+    margin-left: 100px;
+}
+
+#socials > a > p {
+    text-indent: -9999px;
+}
+#socials > a {
+    float: left;
+    background: url('imgs/sprites.jpg');
+    height: 80px;
+    width: 80px;
+    border-radius: 16px;
+    transform: scale(.5, .5);
+}
+
+#socials > a:hover {
+    box-shadow: 0px 0px 31px 6px rgba(14,139,235,1);
+}
+
+#socials > a:nth-child(1) {
+    background-position: 0 0;
+}
+#socials > a:nth-child(2) {
+    background-position: 0 -80px;
+    clear: both;
+}
+#socials > a:nth-child(3) {
+    background-position: 0 -160px;
+}
+#socials > a:nth-child(4) {
+    background-position: 0 -240px;
+}
+#socials > a:nth-child(5) {
+    background-position: 0 -320px;
+}
+
+#block1-men, #block3-men {
+    background: linear-gradient(rgba(200,200,255,.70), rgba(200,200,255,.70)), url('imgs/men-clothing.jpg');
+    height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 0 0, 0 -200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+#block1, #block3 {
+        background: linear-gradient(rgba(200,200,255,.70), rgba(200,200,255,.70)), url('imgs/model-women.png');
+    height: 500px; 
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 0 0, 0 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: white;
+}
+
+#content {
+    background: linear-gradient(rgba(200,200,255,.70), rgba(200,200,255,.70)), url('imgs/model-women.png');
+    height: 500px; 
+
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 0 0, 0 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: white;
+}
+
+#block2-men, #block2 {
+    height: 760px;
+    background: linear-gradient(rgba(200,200,255,.55), rgba(200,200,255,.55));
+    opacity: 1;
+    width: 100%;
+}
+
+#container {
+    position: relative;
+    min-height: 100%;
+}
+
+#category1, #category2, #category3, #category4, #category5  {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(200,200,255);
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+    transition: transform .25s;
+}
+
+#category1:hover,
+#category2:hover,
+#category3:hover,
+#category4:hover,
+#category5:hover  {
+    transform: scale(1.02, 1.02);
+}
+
+#category-head {
+    margin: 0px;
+    font-size: 25pt;
+    text-align: center;
+    padding-top: 15px;
+    color: #525050;
+    text-shadow: 2px 2px 0 #FFF, 2px -2px 0 #FFF, -2px 2px 0 #FFF, -2px -2px 0 #FFF, 2px 0px 0 #FFF, 0px 2px 0 #FFF, -2px 0px 0 #FFF, 0px -2px 0 #FFF, 0px 0px 11px rgba(255,255,255,0);
+}
+
+#cat1-back {
+    background: url('imgs/model-women.png');
+}
+
+#cat1-back, #cat2-back, #cat3-back, #cat4-back, #cat5-back, #cat1-back-men, #cat2-back-men, #cat3-back-men, #cat4-back-men, #cat5-back-men {
+    background-color: white;
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#cat1-desc, #cat2-desc, #cat3-desc, #cat4-desc, #cat5-desc {
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+    width: 200px;
+    color: black;
+    background-color: #CCB9B8;
+}
+
+#collections {
+    font-size: 24pt;
+    margin: 0px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 60px 60px;
+}
+
+#spring-column, #summer-column {
+    width: 30%;
+    background-color: red;
+    height: 500px;
+    margin-left: 180px;
+    margin-top: 20px;
+    float: left;
+}
+
+#collection-desc {
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#spring-column {
+    background: url('imgs/men-clothing.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+#summer-column {
+    background: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+#summer-desc, #spring-desc {
+    float: left;
+    color: #555;
+    margin-top: 0px;
+}
+
+#spring-desc {
+    margin-left: 16%;
+}
+
+#summer-desc {
+    margin-left: 18%;
+}
+
+h4 {
+    font-size: 30pt;
+    margin-bottom: 0;
+}
+
+#block1-men {
+    height: 500px;
+}
+
+#collection-sub-desc {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#spring-sub-desc, #summer-sub-desc {
+    float: left;
+    margin-top: 0px;
+    font-size: 17pt;
+    color: #889;
+}
+
+#spring-sub-desc {
+    margin-left: 11%;
+}
+
+#summer-sub-desc {
+    margin-left: 14%;
+}
