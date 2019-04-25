@@ -1,21 +1,24 @@
-{
-"name": "final",
+ {
+"name": "Final Project",
 "version": "1.0.0",
-"description": "Final Project",
-"main": "Website_service.js",
+"engines": {
+"node": "10.15.3"
+},
+"description": "Implements the battleship service",
+"main": "Website.js",
 "dependencies": {
-    "client-sessions": "^0.8.0",
-    "express": "^4.16.4",
-    "fs": "^0.0.1-security",
+"body-parser": "^1.18.3",
+"express": "^4.16.4",
+"fs": "^0.0.1-security"
 },
 "devDependencies": {},
-"scripts": {
-"test": "echo \"Error: no test specified\" && exit
-1"
+"script": {
+"test": "echo \"Error: no test specified\" && exit 1"
+"start": "node Website_service.js"
 },
 "keywords": [
 "example"
 ],
-"author": "Ryan Grimes",
+"author": "Joey",
 "license": "ISC"
 }
