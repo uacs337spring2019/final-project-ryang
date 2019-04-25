@@ -34,7 +34,7 @@
     function populateWomen(type) {
         let contentArea = document.getElementById("block1-products")
         contentArea.innerHTML = "";
-        let url = "https://ryan-final-website.herokuapp.com?gen=female&type=" + type;
+        let url = "https://ryan-website-final-time.herokuapp.com/?gen=female&type=" + type;
         console.log("working");
         fetch(url)
             .then(checkStatus)
@@ -85,7 +85,7 @@
     function populateMen(type) {
         let contentArea = document.getElementById("block1-products")
         contentArea.innerHTML = "";
-        let url = "https://ryan-final-website.herokuapp.com?gen=men&type=" + type;
+        let url = "https://ryan-website-final-time.herokuapp.com/?gen=men&type=" + type;
         console.log("working");
         fetch(url)
             .then(checkStatus)
