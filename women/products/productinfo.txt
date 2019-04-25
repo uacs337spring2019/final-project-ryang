@@ -1,0 +1,38 @@
+01::Blue::tops::Overalls::49.99
+02::Blue::accessories::Multi-color Headband::9.99
+03::Blue::pants::Blue Pin Stripe Pants::35.99
+04::Black::skirts::Black Denim Skirt::29.99
+05::White::tops::White Summer Top::15.99
+07::Orange::tops::Orange Summer Top::16.99
+08::Black::tops::Black Nike Top::30.00
+09::White::tops::White Long Sleve Top::22.99
+10::White::tops::White Flowy Top::17.99
+11::Black::tops::Black Adidas Top::39.99
+12::White::tops::Small Logo Vans::29.99
+13::Pink::tops::Adidas Top::35.99
+14::Red::pants::Nike Pants::39.99
+15::Black::pants::Adidas Pants::45.99
+16::Black::pants::Nike Pants::32.99
+17::Brown::shoes::Wedges::49.99
+18::Black::shoes::Nike Sneakers::79.99
+19::Blue::pants::Blue Pants::49.99
+20::White::shoes:White Converse::69.99
+21::Black::shoes::Black New Balance::70.99
+22::Black::pants::Black Nike Pants::49.99
+23::White::shoes::White and Brown Wedges::45.99
+24::White::pants::White Nike Leggings::42.99
+25::Brown::shoes::Brown Flat Shoes::25.99
+26::White::skirts::White Denim Skirt::19.99
+27::Black::accessories::Black Bandana::10.99
+28::White::skirts::White Shorts::20.99
+29::Beige::accessories::Beige Big Hat::19.99
+30::Beige::accessories::Another Beige Hat:20.99
+31::Brown::accessories::Brown and Black Glasses::19.99
+32::Beige::skirts::Beige Skirt::20.99
+34::Red::skirts::Red Skirt::15.99
+36::Black::skirts::Black Skirt::16.99
+37::White::skirts::White Shorts::17.99
+38::Red::skirts::Red Shorts::18.99
+39::Gold::accessories::Silver Headband::9.99
+40::Silver::acessories::Silver Throwbag::19.99
+41::Blue::skirts::Blue Denim Shorts::29.99
