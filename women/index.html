@@ -4,88 +4,90 @@
         <title>Clothing International</title>
         <link rel="stylesheet" type="text/css" href="../finalwebsite.css" />
         <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="../Website.js"></script>
     </head>
     <body>
         <div id="container">
             <nav>
-                <a href="../finalwebsite.html"><h1 id="logo"> Clothes </h1></a>
+                <a href="../finalwebsite.html" ><h1 id="logo"> Clothes </h1></a>
                 <ul id="navbar">
                     <div id="women-drop">
                         <a href="index.html" class="selected-nav" id="navbar_women"><li> Women </li></a>
-                        <div id="women-dropped">
-                            <nav id="nav-extra">
-                                <ul id="women-nav-extra">
-                                    <li><a href="#"> Shirts </a></li>
-                                    <li><a href="#"> Skirts </a></li>
-                                    <li><a href="#"> Pants </a></li>
-                                    <li><a href="#"> Tops </a></li>
-                                    <li><a href="#"> Shoes </a></li>
-                                </ul>
-                            </nav>  
-                        </div>
                     </div>
                     <div id="men-drop">
                         <a href="../men/index.html" id="navbar_men"><li> Men </li></a>
-                        <div id="men-dropped">
-                            <nav id="nav-extra">
-                                    <ul id="men-nav-extra">
-                                        <li><a href="#"> Shirts </a></li>
-                                        <li><a href="#"> Shorts </a></li>
-                                        <li><a href="#"> Pants </a></li>
-                                        <li><a href="#"> Tops </a></li>
-                                        <li><a href="#"> Shoes </a></li>
-                                        <li><a href="#"> Accessories </a></li>
-                                    </ul>
-                            </nav>
-                        </div>
                     </div>
                 </ul>
                 <input type="search" placeholder="Search our items, brands and more" id="searchbar" />
-                <img src="../shopping-cart.svg" id="shopping-cart-icon" />
             </nav>
-            <div id="block1">
-                <h2 id="category-head"> Shop By Category </h2>
-                <div id="category1">
-                    <div id="cat1-back">
-                    </div>
-                    <h2 id="cat1-desc"> Shirts </h2>
+            <div id="holder">
+            </div>
+            <div id="contentAll">
+                <div id="block-start">
+                    <h2 id="shop-all-title"> New Arrivals </h2>
+                    <button type="button" id="shop-all" value="all"> Shop All </button>
                 </div>
-                <div id="category2">
-                    <div id="cat2-back">
+                <div id="block1">
+                    <h2 id="category-head"> Shop By Category </h2>
+                    <div id="category1" class="clicker-women" name="hello">
+                        
+                            <div id="cat1-back">
+                            </div>
+                            <h2 id="cat1-desc"> Tops </h2>
                     </div>
-                    <h2 id="cat2-desc"> Skirts </h2>
+                    <div id="category2" class="clicker-women">
+                            <div id="cat2-back">
+                            </div>
+                            <h2 id="cat2-desc"> Skirts </h2>
+                    </div>
+                    <div id="category3" class="clicker-women">
+                            <div id="cat3-back">
+                            </div>
+                            <h2 id="cat3-desc"> Pants </h2>
+                    </div>
+                     <div id="category4" class="clicker-women">
+                            <div id="cat4-back">
+                            </div>
+                            <h2 id="cat4-desc"> Accessories </h2>
+                    </div>
+                     <div id="category5" class="clicker-women">
+                            <div id="cat5-back">
+                            </div>
+                            <h2 id="cat5-desc"> Shoes </h2>
+                    </div>
                 </div>
-                <div id="category3">
-                    <div id="cat3-back">
+                <div id="block2">
+                    <h3 id="collections"> Our Newest Collections </h3>
+                    <div id="spring-column-women">
                     </div>
-                    <h2 id="cat3-desc"> Pants </h2>
+                    <div id="summer-column-women">
+                    </div>
+                    <div id="collection-desc">
+                        <h4 id="spring-desc"> Spring Collection </h4>
+                        <h4 id="summer-desc"> Summer Collection </h4>
+                    </div>
                 </div>
-                 <div id="category4">
-                    <div id="cat4-back">
-                    </div>
-                    <h2 id="cat4-desc"> Tops </h2>
-                </div>
-                 <div id="category5">
-                    <div id="cat5-back">
-                    </div>
-                    <h2 id="cat5-desc"> Shoes </h2>
+                <div id="block3">
                 </div>
             </div>
-            <div id="block2">
-                <h3 id="collections"> Our Newest Collections </h3>
-                <div id="spring-column">
+            <div id="content-products-women">
+                <div id="block-sorter">
+                    <fieldset>
+                        <legend> Type </legend>
+                        <input type="radio" id="tops-button" name="types" value="tops" /> Tops </br>
+                        <input type="radio" id="short-button" checked="checked" name="types" value="skirts" /> Skirts </br>
+                        <input type="radio" id="pants-button" name="types" value="pants" /> Pants </br>
+                        <input type="radio" id="access-button" name="types" value="accessories" /> Accessories </br>
+                        <input type="radio" id="shoes-button" name="types" value="shoes" /> Shoes
+                    </fieldset>
+                    
+                    
                 </div>
-                <div id="summer-column">
+                <div id="block1-products">
                 </div>
-                <div id="collection-desc">
-                    <h4 id="spring-desc"> Spring Collection </h4>
-                    <h4 id="summer-desc"> Summer Collection </h4>
-                </div>
-            </div>
-            <div id="block3">
             </div>
             <div id="footer">
                 <div id="footer-block1">    
