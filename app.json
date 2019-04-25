@@ -1,8 +1,7 @@
 {
-"name": "My Node.js",
-"description": "Final Project Node",
-"repository": "https://github.com/uacs337spring2019/final-project-ryang",
-"logo": "https://rawgit.com/heroku/node-js-sample/master/public/node.svg"
-,
+"name": "website_service.js final",
+"description": "337 final clothing website",
+"repository": "https://github.com/uacs337spring2019/final-project-ryang.git",
+"logo": "",
 "keywords": ["node", "express", "static"]
 }
