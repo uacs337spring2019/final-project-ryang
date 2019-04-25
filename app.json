@@ -1,7 +1,7 @@
 {
 "name": "website_service.js final",
 "description": "337 final clothing website",
-"repository": "https://github.com/uacs337spring2019/final-project-ryang.git",
+"repository": "https://github.com/uacs337spring2019/final-project-ryang",
 "logo": "",
 "keywords": ["node", "express", "static"]
 }
