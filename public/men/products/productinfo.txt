@@ -1,0 +1,32 @@
+01::Black::tops::Nike Black Shirt::49.99
+02::White::tops::White Adidas Shirt::9.99
+03::White::tops::White Adidas Shirt::35.99
+04::Black::tops::Black Adidas Shirt::29.99
+05::White::tops::White Adidas Top::15.99
+06::White::tops::White Nike Shirt::16.99
+07::Grey::tops::Grey Nike Top::30.00
+08::Black::shorts::Tan Shorts::22.99
+09::Black::shorts::Black Nike Shorts::17.99
+10::Blue::shorts::Blue Denim Shorts::39.99
+11::White::shorts::White Nike Shorts::29.99
+12::White::shorts::White Nike Shorts::35.99
+13::Blue::shorts::Blue Shorts::39.99
+14::Black::pants::Adidas Shorts::45.99
+15::Blue::shoes::Vans Shoes::32.99
+16::Black::shoes::Black Nike Slides::49.99
+17::Green::shoes::Nike Sneakers::79.99
+18::White::shoes::White Nike Shoes::49.99
+19::White::shoes::White Nike Shoes::69.99
+20::White::shoes::White Adidas Shoes::70.99
+21::Black::pants::Black Stripe Pants::49.99
+22::Black::pants::Black Nike Pants::45.99
+23::Black::pants::Black Nike Pants::42.99
+24::Black::pants::Black Nice Pants::25.99
+25::Black::shorts::Black Stripe Pants::19.99
+26::Black::accessories::Black Bag::10.99
+27::Grey::accessories::Grey Beanie::20.99
+28::Black::accessories::Black Nike Bag::19.99
+29::Black::accessories::Black Nike Hat::20.99
+30::Black::accessories::Black Bookbag::19.99
+31::Black::accessories::Black Scarf::20.99
+32::Black::accessories::Black Glasses::21.99
