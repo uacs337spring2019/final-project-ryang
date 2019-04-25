@@ -5,7 +5,7 @@ body {
 }
 
 #block1, #block1-men, #block2, #block2-men {
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Patua One', sans-serif;
 }
 
 h1, #navbar_men, #navbar_women, input {
@@ -111,10 +111,12 @@ svg{
     width: 100%;
     margin: 0px;
     text-align: center;
+    z-index: 1;
 }
 
 #women-nav-extra, #men-nav-extra {
     margin-left: 0px;
+    z-index: 1;
     text-align: center;
 }
 
@@ -135,6 +137,7 @@ svg{
 
 #women-nav-extra > li, #men-nav-extra > li {
     display: block;
+    z-index: 1;
     float: left;
     width: 5%;
     height: 50px;
@@ -352,6 +355,7 @@ button {
     float: left;
     margin-left: 60px;
     margin-top: 50px;
+    border: 1px solid black;
     transition: transform .25s;
 }
 
@@ -372,8 +376,39 @@ button {
     text-shadow: 2px 2px 0 #FFF, 2px -2px 0 #FFF, -2px 2px 0 #FFF, -2px -2px 0 #FFF, 2px 0px 0 #FFF, 0px 2px 0 #FFF, -2px 0px 0 #FFF, 0px -2px 0 #FFF, 0px 0px 11px rgba(255,255,255,0);
 }
 
+
 #cat1-back {
     background: url('imgs/model-women.png');
+}
+#cat1-back-men {
+    background: url('imgs/men-shirt.jpg');
+}
+#cat2-back-men {
+    background: url('imgs/men-shorts.jpg');
+}
+#cat3-back-men {
+    background: url('imgs/men-pants.jpg');
+}
+#cat4-back-men {
+    background: url('imgs/men-access.jpg');
+}
+#cat5-back-men {
+    background: url('imgs/men-shoes.jpg');
+}
+#cat1-back {
+    background: url('imgs/women-tops.jpg');
+}
+#cat2-back {
+    background: url('imgs/women-skirts.jpg');
+}
+#cat3-back {
+    background: url('imgs/women-pants.jpg');
+}
+#cat4-back {
+    background: url('imgs/women-access.jpg');
+}
+#cat5-back {
+    background: url('imgs/women-shoes.jpg');
 }
 
 #cat1-back, #cat2-back, #cat3-back, #cat4-back, #cat5-back, #cat1-back-men, #cat2-back-men, #cat3-back-men, #cat4-back-men, #cat5-back-men {
@@ -389,7 +424,7 @@ button {
     text-align: center;
     width: 200px;
     color: black;
-    background-color: #CCB9B8;
+    background-color: #e9e8e6;
 }
 
 #collections {
@@ -405,7 +440,7 @@ button {
     border-radius: 0px 0px 60px 60px;
 }
 
-#spring-column, #summer-column {
+#spring-column, #spring-column-women, #summer-column, #summer-column-women {
     width: 30%;
     background-color: red;
     height: 500px;
@@ -422,14 +457,28 @@ button {
 }
 
 #spring-column {
-    background: url('imgs/men-clothing.jpg');
+    background: url('imgs/spring-collection.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+#spring-column-women {
+    background: url('imgs/women-spring.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     border: 2px solid black;
 }
 
 #summer-column {
-    background: white;
+    background: url('imgs/summer-collection.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+#summer-column-women {
+    background: url('imgs/women-summer.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     border: 2px solid black;
@@ -479,3 +528,114 @@ h4 {
 #summer-sub-desc {
     margin-left: 14%;
 }
+
+#block-start-men {
+    width: 90%;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    background: url('imgs/men-cover-image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    z-index: 0;
+}
+
+#block-start {
+    width: 90%;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    background: url('imgs/women-first-page.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    z-index: 0;
+}
+
+#shop-all {
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    background-color: black;
+    color: white;
+    font-size: 20pt;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: background-color .5s, color .5s, border .5s;
+    
+}
+
+#shop-all:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+#shop-all-title {
+    font-size: 35pt;
+    color: black;
+    text-align: center;
+    padding-top: 210px;
+}
+
+#footer {
+    border-top: 20px solid white;
+    margin-top: 0px;
+}
+
+#content-products-women, #content-products-men {
+    width: 100%;
+    height: 1500px;
+    overflow: auto;
+    margin: 0px;
+}
+
+#block-sorter {
+    width: 250px;
+    height: 500px;
+    background-color: red;
+    float: left;
+}
+
+#block1-products {
+    width: 70%;
+    height: 1200px;
+    float: left; 
+    background-color: black;
+}
+
+input {
+    display: block;
+}
+
+.squares {
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+    float: left;
+    margin-left: 40px;
+}
+
+.productImage {
+    width: 200px;
+    height: 250px;
+}
+
+.descriptions {
+    margin: 0px;
+}
+
+#content-products-women, #content-products-men {
+    display: none;
+    height: 1000px;
+    width: 100%;
+}
+
+
