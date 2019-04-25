@@ -26,7 +26,7 @@ app.listen(process.env.PORT);
 
 
 function getWomenProduct(type) {
-    let file = fs.readFileSync("public\\women\\products\\productinfo.txt", 'utf8');
+    let file = fs.readFileSync(".public/women/products/productinfo.txt", 'utf8');
     let lines = file.split("\n");
     let product = {};
     let allproducts = [];
@@ -108,7 +108,7 @@ function getWomenProduct(type) {
 }
 
 function getMenProduct(type) {
-    let file = fs.readFileSync("public\\men\\products\\productinfo.txt", 'utf8');
+    let file = fs.readFileSync(".public/men/products/productinfo.txt", 'utf8');
     let lines = file.split("\n");
     let product = {};
     let allproducts = [];
