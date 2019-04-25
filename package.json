@@ -1,28 +1,29 @@
- {
-"name": "Website.js",
-"version": "1.0.0",
-"engines": {
-"node": "10.15.3"
-},
-"description": "Webservice for Clothing Website",
-"main": "Website.js",
-"dependencies": {
-"body-parser": "^1.18.3",
-"express": "^4.16.4",
-"fs": "^0.0.1-security"
-},
-"devDependencies": {},
-"scripts": {
-"test": "echo \"Error: no test specified\" && exit1",
-"start": "node Website_service.js"
-},
-"repository": {
+{
+  "name": "final-project-website",
+  "version": "1.0.0",
+  "description": "(Example)",
+  "main": "(Website_service.js)",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node": "^10.15.3"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Website_service.js"
+  },
+  "repository": {
     "type": "git",
-    "url": "git+https://github.com/uacs337spring2019/final-project-ryang+git"
-},
-"keywords": [
-"example"
-],
-"author": "Ryan",
-"license": "ISC"
+    "url": "git+https://github.com/uacs337spring2019/final-project-ryang.git"
+  },
+  "author": "Ryan Grimes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uacs337spring2019/final-project-ryang/issues"
+  },
+  "homepage": "https://github.com/uacs337spring2019/final-project-ryang#readme"
 }
