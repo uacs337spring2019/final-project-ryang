@@ -9,6 +9,9 @@
         document.getElementById("pants-button").onchange = checker;
         document.getElementById("access-button").onchange = checker;
         document.getElementById("shoes-button").onchange = checker;
+        document.getElementById("shop-all").onclick = function() {
+            offProductPage("category1");
+        }
         let typesClicker = document.querySelectorAll(".clicker-women");
                 for (let i = 0; i < typesClicker.length; i++) {
                     typesClicker[i].addEventListener('click', function() {
@@ -88,11 +91,11 @@
             .then(function(responseText) {
                 let resp = JSON.parse(responseText);
                 console.log(resp);
-                if (type === "shirts") {
+                if (type === "tops") {
                     let button = document.getElementById("tops-button");
                     button.checked = true;
                 }else if (type === "shorts") {
-                    let button = document.getElementById("shorts-button");
+                    let button = document.getElementById("short-button");
                     button.checked = true;
                 }else if (type === "shoes") {
                     let button = document.getElementById("shoes-button");
@@ -154,6 +157,10 @@
             let button = document.getElementById("shoes-button");
             button.checked = true;
             populateWomen("shoes")
+        }else if(value === "all") {
+            let button = document.getElementById("tops-button");
+            button.checked = true;
+            populateWomen("all");
         }
     }
     function offProductPageMen(value) {
@@ -162,7 +169,7 @@
         if (value === "category1") {
             let button = document.getElementById("tops-button");
             button.checked = true;
-            populateMen("shirts")
+            populateMen("tops")
         }else if(value === "category2") {
             let button = document.getElementById("short-button");
             button.checked = true;
@@ -179,11 +186,15 @@
             let button = document.getElementById("shoes-button");
             button.checked = true;
             populateMen("shoes")
+        }else if(value === "all") {
+            let button = document.getElementById("tops-button");
+            button.checked = true;
+            populateMen("all");
         }
     }
     
     function checker() {
-        if(this.value === "tops" || this.value === "skirts" || this.value === "pants" || this.value === "shoes" || this.value === "accessories") {
+        if(this.value === "all" || this.value === "tops" || this.value === "skirts" || this.value === "pants" || this.value === "shoes" || this.value === "accessories") {
             populateWomen(this.value);
         }else if(this.value === "shorts-men") {
             populateMen("shorts")

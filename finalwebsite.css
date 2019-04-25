@@ -495,7 +495,7 @@ button {
 }
 
 #summer-desc {
-    margin-left: 18%;
+    margin-left: 21%;
 }
 
 h4 {
@@ -526,7 +526,7 @@ h4 {
 }
 
 #summer-sub-desc {
-    margin-left: 14%;
+    margin-left: 17%;
 }
 
 #block-start-men {
@@ -557,7 +557,7 @@ h4 {
     z-index: 0;
 }
 
-#shop-all {
+#shop-all, #shop-all-men {
     width: 200px;
     height: 75px;
     position: absolute;
@@ -599,7 +599,7 @@ h4 {
 
 #block-sorter {
     width: 250px;
-    height: 500px;
+    height: 250px;
     background-color: red;
     float: left;
 }
@@ -621,6 +621,8 @@ input {
     border: 1px solid red;
     float: left;
     margin-left: 40px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .productImage {

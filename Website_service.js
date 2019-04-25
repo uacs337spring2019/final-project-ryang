@@ -113,10 +113,10 @@ function getMenProduct(type) {
     let product = {};
     let allproducts = [];
     for(let i = 0; i < lines.length; i++) {
-        if(type === "shirts") {
+        if(type === "tops") {
             let singleline = lines[i].split("::");
             let productEach = {};
-            if (singleline[2] === "shirts") {
+            if (singleline[2] === "tops") {
                 productEach["image"] = singleline[0];
                 productEach["color"] = singleline[1];
                 productEach["type"] = singleline[2];
