@@ -2,7 +2,7 @@
   "name": "final-project-website",
   "version": "1.0.0",
   "description": "(Example)",
-  "main": "(Website_service.js)",
+  "main": "Website_service.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
